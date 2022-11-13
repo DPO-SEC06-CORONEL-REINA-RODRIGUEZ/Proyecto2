@@ -1,0 +1,47 @@
+Fecha	Match ID	Result	Team	#	Pos.	FIFA Popular Name	Minutos jugados	Goles recibidos	Penaltis anotados	Autogoles	Asistencias	Goles anotados	Penaltis detenidos	Penaltis errados	Tarjetas amarillas	Tarjeta roja
+15/06/2018	3	win	Morocco	14	MF	BOUSSOUFA Mbark	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	2	DF	HAKIMI Achraf	0	0	1	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	18	MF	HARIT Amine	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	23	MF	CARCELA Mehdi	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	3	DF	MENDYL Hamza	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	7	MF	ZIYACH Hakim	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	22	GK	TAGNAOUTI Ahmed	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	9	FW	EL KAABI Ayoub	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	11	MF	FAJR Faycal	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	10	MF	BELHANDA Younes	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	15	MF	AIT BENNASSER Youssef	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	19	FW	EN NESYRI Youssef	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	6	DF	SAISS Romain	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	1	GK	BOUNOU Yassine	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	16	MF	AMRABAT Noureddine	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	21	MF	AMRABAT Sofyan	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	4	DF	DA COSTA Manuel	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	8	MF	EL AHMADI Karim	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	13	FW	BOUTAIB Khalid	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	20	FW	BOUHADDOUZ Aziz	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	17	DF	DIRAR Nabil	90	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	5	DF	BENATIA Mehdi	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	win	Morocco	12	GK	EL KAJOUI Monir	0	0	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	5	DF	MOHAMMADI Milad	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	2	MF	TORABI Mehdi	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	11	MF	AMIRI Vahid	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	3	DF	HAJI SAFI Ehsan	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	9	MF	EBRAHIMI Omid	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	23	DF	REZAEIAN Ramin	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	15	DF	MONTAZERI Pejman	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	18	FW	JAHANBAKHSH Alireza	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	19	DF	HOSSEINI Majid	30	1	0	0	0	0	0	0	0	1
+15/06/2018	3	lost	IR Iran	21	FW	DEJAGAH Ashkan	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	7	MF	SHOJAEI Masoud	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	14	FW	GHODDOS  Saman	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	16	FW	GHOOCHANNEJHAD Reza	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	4	DF	CHESHMI Roozbeh	60	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	10	FW	ANSARIFARD Karim	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	13	DF	KHANZADEH Mohammad Reza	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	17	FW	TAREMI Mehdi	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	20	FW	AZMOUN Sardar	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	22	GK	ABEDZADEH Amir	90	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	6	MF	EZATOLAHI Saeid	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	8	DF	POURALIGANJI Morteza	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	12	GK	MAZAHERI Rashid	0	1	0	0	0	0	0	0	0	0
+15/06/2018	3	lost	IR Iran	1	GK	BEIRANVAND Ali	0	1	0	0	0	0	0	0	0	0
