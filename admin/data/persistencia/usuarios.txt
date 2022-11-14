@@ -1,2 +1,0 @@
-propietario,p,p
-admin,m,m

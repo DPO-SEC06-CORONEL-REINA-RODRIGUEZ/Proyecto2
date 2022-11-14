@@ -1,7 +1,0 @@
-
-admin,m,m
-admin,m,m
-propietario,p,p
-admin,m,m
-propietario,p,p
-propietario,we,we
