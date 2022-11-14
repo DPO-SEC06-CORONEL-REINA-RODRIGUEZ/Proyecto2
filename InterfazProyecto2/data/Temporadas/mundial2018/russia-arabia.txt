@@ -1,0 +1,47 @@
+Fecha	Match ID	Result	Team	#	Pos.	FIFA Popular Name	Minutos jugados	Goles recibidos	Penaltis anotados	Autogoles	Asistencias	Goles anotados	Penaltis detenidos	Penaltis errados	Tarjetas amarillas	Tarjeta roja
+14/06/2018 	1	won	Russia	16	MF	MIRANCHUK Anton	90	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	6	MF	CHERYSHEV Denis	90	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	17	MF	GOLOVIN Aleksandr	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	23	DF	SMOLNIKOV Igor	10	1	0	0	0	0	0	0	0	1
+14/06/2018 	1	won	Russia	9	MF	DZAGOEV Alan	10	1	0	0	0	0	0	0	0	1
+14/06/2018 	1	won	Russia	7	MF	KUZIAEV Daler	80	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	19	MF	SAMEDOV Alexander	90	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	8	MF	GAZINSKY Iury	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	18	MF	ZHIRKOV Yury	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	11	MF	ZOBNIN Roman	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	15	MF	MIRANCHUK Alexey	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	13	DF	KUDRIASHOV Fedor	80	1	0	0	1	0	0	0	0	0
+14/06/2018 	1	won	Russia	2	DF	MARIO FERNANDES	90	1	0	0	0	1	0	0	0	0
+14/06/2018 	1	won	Russia	10	FW	SMOLOV Fedor	90	1	0	0	0	1	0	0	0	0
+14/06/2018 	1	won	Russia	21	MF	EROKHIN Aleksandr	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	12	GK	LUNEV Andrei	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	14	DF	GRANAT Vladimir	90	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	20	GK	GABULOV Vladimir	90	1	0	0	0	0	2	0	0	0
+14/06/2018 	1	won	Russia	3	DF	KUTEPOV Ilya	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	1	GK	AKINFEEV Igor	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	4	DF	IGNASHEVICH Sergey	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	5	DF	SEMENOV Andrey	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	won	Russia	22	FW	DZYUBA Artem	90	1	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	6	DF	MOHAMMED ALBURAYK	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	7	MF	SALMAN ALFARAJ	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	8	MF	YAHIA ALSHEHRI	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	13	DF	YASIR ALSHAHRANI	90	2	0	1	0	0	0	0	1	0
+14/06/2018 	1	lost	Saudi Arabia	19	FW	FAHAD ALMUWALLAD	90	2	0	0	0	1	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	9	MF	HATAN BAHBIR	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	14	MF	ABDULLAH OTAYF	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	15	MF	ABDULLAH ALKHAIBARI	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	2	DF	MANSOUR ALHARBI	90	2	0	0	0	0	0	0	1	0
+14/06/2018 	1	lost	Saudi Arabia	18	MF	SALEM ALDAWSARI	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	17	MF	TAISEER ALJASSAM	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	11	MF	ABDULMALEK ALKHAIBRI	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	12	MF	MOHAMED KANNO	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	10	FW	MOHAMMED ALSAHLAWI	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	5	DF	OMAR OTHMAN	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	16	MF	HUSSAIN ALMOQAHWI	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	20	FW	MUHANNAD ASIRI	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	22	GK	MOHAMMED ALOWAIS	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	23	DF	MOTAZ HAWSAWI	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	3	DF	OSAMA HAWSAWI	90	2	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	4	DF	ALI ALBULAYHI	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	21	GK	YASSER ALMOSAILEM	0	0	0	0	0	0	0	0	0	0
+14/06/2018 	1	lost	Saudi Arabia	1	GK	ABDULLAH ALMUAIOUF	90	2	0	0	0	0	0	0	0	0

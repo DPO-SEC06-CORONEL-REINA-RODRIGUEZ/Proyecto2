@@ -1,0 +1,47 @@
+Fecha	Match ID	Result	Team	#	Pos.	FIFA Popular Name	Minutos jugados	Goles recibidos	Penaltis anotados	Autogoles	Asistencias	Goles anotados	Penaltis detenidos	Penaltis errados	Tarjetas amarillas	Tarjeta roja
+15/06/2018	4	lost	Spain	12	DF	ODRIOZOLA Alvaro	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	17	FW	ASPAS Iago	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	21	FW	SILVA David	90	0	0	0	0	0	0	0	1	0
+15/06/2018	4	lost	Spain	6	MF	INIESTA Andres	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	18	DF	ALBA Jordi	90	0	0	0	0	0	0	0	1	0
+15/06/2018	4	lost	Spain	10	MF	THIAGO	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	11	FW	VAZQUEZ Lucas	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	1	GK	DE GEA David	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	9	FW	RODRIGO	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	16	DF	MONREAL Nacho	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	2	DF	CARVAJAL Dani	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	8	MF	KOKE	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	22	MF	ISCO	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	15	DF	RAMOS Sergio	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	7	MF	SAUL	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	20	MF	ASENSIO Marco	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	4	DF	NACHO	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	5	MF	BUSQUETS Sergio	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	14	DF	AZPILICUETA Cesar	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	13	GK	ARRIZABALAGA Kepa	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	3	DF	PIQUE Gerard	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	19	FW	COSTA Diego	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	lost	Spain	23	GK	REINA Pepe	90	0	0	0	0	1	0	0	0	0
+15/06/2018	4	win	Portugal	8	MF	JOAO MOUTINHO	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	18	FW	GELSON MARTINS	90	0	0	0	2	0	0	0	0	0
+15/06/2018	4	win	Portugal	5	DF	RAPHAEL GUERREIRO	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	16	MF	BRUNO FERNANDES	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	11	MF	BERNARDO SILVA	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	19	DF	MARIO RUI	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	21	DF	CEDRIC	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	4	MF	MANUEL FERNANDES	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	15	DF	RICARDO	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	17	FW	GONCALO GUEDES	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	23	MF	ADRIEN SILVA	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	10	MF	JOAO MARIO	90	0	0	0	0	0	0	0	1	0
+15/06/2018	4	win	Portugal	20	FW	RICARDO QUARESMA	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	9	FW	ANDRE SILVA	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	22	GK	BETO	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	7	FW	CRISTIANO RONALDO	90	0	0	0	0	2	0	0	1	0
+15/06/2018	4	win	Portugal	14	MF	WILLIAM	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	3	DF	PEPE	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	12	GK	ANTHONY LOPES	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	2	DF	BRUNO ALVES	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	13	DF	RUBEN DIAS	0	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	1	GK	RUI PATRICIO	90	0	0	0	0	0	0	0	0	0
+15/06/2018	4	win	Portugal	6	DF	JOSE FONTE	0	0	0	0	0	0	0	0	0	0

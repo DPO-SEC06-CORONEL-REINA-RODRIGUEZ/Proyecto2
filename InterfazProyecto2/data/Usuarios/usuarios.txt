@@ -1,0 +1,4 @@
+admin,m,m
+admin,Miguel,m
+usuario,Mi,mi
+usuario,Usuario,password
