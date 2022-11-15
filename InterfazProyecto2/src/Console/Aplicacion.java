@@ -63,10 +63,10 @@ public class Aplicacion {
 	            	                        salir2 = true;
 	            	                        break;
 	            	                    default:
-	            	                        System.out.println("\nSyntax Error: Ingrese números entre 1 y 3");
+	            	                        System.out.println("\nSyntax Error: Ingrese nï¿½meros entre 1 y 3");
 	            	                }
 	            	            } catch (InputMismatchException e) {
-	            	                System.out.println("Debes insertar un número");
+	            	                System.out.println("Debes insertar un nï¿½mero");
 	            	                sn2.next();
 	            	            }}
 	                        break;
@@ -78,10 +78,10 @@ public class Aplicacion {
 	                        salir = true;
 	                        break;
 	                    default:
-	                        System.out.println("\nSyntax Error: Ingrese números entre 1 y 3");
+	                        System.out.println("\nSyntax Error: Ingrese nï¿½meros entre 1 y 3");
 	                }
 	            } catch (InputMismatchException e) {
-	                System.out.println("Debes insertar un número");
+	                System.out.println("Debes insertar un nï¿½mero");
 	                sn.next();
 	            }
 	        }
@@ -296,7 +296,7 @@ public class Aplicacion {
         	                    	}
         	                        break;
         	                        
-        	                    case 5://FALTA AGREGAR EL DINERO AL DUEnO DEL JUGADOR - Miguel: técnicamente es al equipo el que tiene el dinero
+        	                    case 5://FALTA AGREGAR EL DINERO AL DUEnO DEL JUGADOR - Miguel: tï¿½cnicamente es al equipo el que tiene el dinero
         	                    
         	                    	Scanner case6 = new Scanner(System.in);
         	                    	HashMap<String, ArrayList<EquipoFantasia>> EquiposDeFantasia6 = cFantas.getEquiposFant();
@@ -324,10 +324,10 @@ public class Aplicacion {
         	                        salir4 = true;
         	                        break;
         	                    default:
-        	                        System.out.println("\nSyntax Error: Ingrese números entre 1 y 7");
+        	                        System.out.println("\nSyntax Error: Ingrese nï¿½meros entre 1 y 7");
         	                }
         	            } catch (InputMismatchException e) {
-        	                System.out.println("Debes insertar un número");
+        	                System.out.println("Debes insertar un nï¿½mero");
         	                sn4.next();
         	            }}
 					;}
@@ -354,7 +354,7 @@ public class Aplicacion {
     	                switch (opcion4) {
     	                    case 1:
     	                    	System.out.print("Para iniciar, tenga en cuenta que "
-    	                    			+ "\nlos archivos que serán solicitados deberá"
+    	                    			+ "\nlos archivos que serï¿½n solicitados deberï¿½"
     	                    			+ "\nguardarlos en la carpeta /data \n");
     	                    	System.out.print("\nCargue el archivo .txt con los partidos"
     	                    			+ "\n con el formato dates-[key]. "
@@ -363,7 +363,7 @@ public class Aplicacion {
     	                    			+ "\n con el formato players-[key] (misma key anterior). "
     	                    			+ "\n Por ejemplo players-mundial2018\n\n");
     	                    	System.out.print("Ahora, escoja un 'key' con el que "
-    	                    			+ "\nidentificó la temporada (e.g. mundial2018): \n");
+    	                    			+ "\nidentificï¿½ la temporada (e.g. mundial2018): \n");
     	                    	String key_temporada = scanner.nextLine();
     	                    	
     	                    	
@@ -395,10 +395,10 @@ public class Aplicacion {
     	                        
     	                        
     	                    default:
-    	                        System.out.println("\nSyntax Error: Ingrese números entre 1 y 3");
+    	                        System.out.println("\nSyntax Error: Ingrese nï¿½meros entre 1 y 3");
     	                }
     	            } catch (InputMismatchException e) {
-    	                System.out.println("Debes insertar un número");
+    	                System.out.println("Debes insertar un nï¿½mero");
     	                sn4.next();
     	            }}
 				;}
@@ -415,14 +415,14 @@ public class Aplicacion {
 		}
 		
 		
-		public static void main(String[] args) { //MODIFICACION UML, PUBLIC NOT PRIVATE
-			
-		Aplicacion app = new Aplicacion();
-		
-		System.out.print("Bienvenido a la aplicacion /Equipos de fantasia/\nSelecciona una opcion por favor: \n\n");
-		
-		app.desplegarConsola();
-		}
+//		public static void main(String[] args) { //MODIFICACION UML, PUBLIC NOT PRIVATE
+//			
+//		Aplicacion app = new Aplicacion();
+//		
+//		System.out.print("Bienvenido a la aplicacion /Equipos de fantasia/\nSelecciona una opcion por favor: \n\n");
+//		
+//		app.desplegarConsola();
+//		}
 		
 		
 
