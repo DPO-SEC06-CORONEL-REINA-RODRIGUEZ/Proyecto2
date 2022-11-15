@@ -1,3 +1,6 @@
+/*
+ *  Panel para crear un nuevo equipo (propietario)
+ */
 package interfaz;
 
 import java.awt.*;

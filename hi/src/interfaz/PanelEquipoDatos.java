@@ -1,3 +1,6 @@
+/*
+ *  Panel para cumplir con el requerimiento de mostrar info. equipo
+ */
 package interfaz;
 
 import java.awt.Color;

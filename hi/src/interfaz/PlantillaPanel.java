@@ -1,3 +1,6 @@
+/*
+ * Plantilla no instanciable para tener en todas los otros paneles que hereden de este
+ */
 package interfaz;
 
 import javax.swing.*;

@@ -1,3 +1,6 @@
+/*
+ *  Panel para informarle al usuario que no hay temporadas planeadas
+ */
 package interfaz;
 
 import java.awt.Color;

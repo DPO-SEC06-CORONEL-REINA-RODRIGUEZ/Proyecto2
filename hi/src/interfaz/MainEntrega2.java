@@ -1,3 +1,6 @@
+/*
+ *  Clase con método main
+ */
 package interfaz;
 
 

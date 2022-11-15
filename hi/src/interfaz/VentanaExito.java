@@ -1,3 +1,6 @@
+/*
+ *  Ventana para informarle al usuario sobre el éxito de una operación
+ */
 package interfaz;
 
 import javax.swing.*;

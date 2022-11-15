@@ -1,3 +1,6 @@
+/*
+ *  Esta clase almacena algoritmos útiles para lidiar con problemas comunes
+ */
 package model;
 
 import java.io.File;
@@ -10,6 +13,12 @@ public class GenericAlgorithms {
 
 	
 	
+	/**
+	 * Format date.
+	 *
+	 * @param fecha the fecha
+	 * @return the string
+	 */
 	public static String formatDate(Date fecha)
 	{
 	
@@ -19,6 +28,15 @@ public class GenericAlgorithms {
 		return stringDate;
 	}
 	
+	/**
+	 * Adds the to hash list.
+	 *
+	 * @param <K> the key type
+	 * @param <V> the value type
+	 * @param hash the hash
+	 * @param mapKey the map key
+	 * @param myItem the my item
+	 */
 	public static <K, V> void addToHashList(HashMap<K, ArrayList <V>> hash, K mapKey, V myItem) {
 		ArrayList<V> itemsList = hash.get(mapKey);
 	
@@ -33,6 +51,14 @@ public class GenericAlgorithms {
 	    }
 	}
 	
+	/**
+	 * Revisar file.
+	 *
+	 * @param archivo the archivo
+	 * @param espExt the esp ext
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public static boolean revisarFile(File archivo, String espExt) throws Exception
 
 	{
@@ -58,6 +84,13 @@ public class GenericAlgorithms {
 	    return rta;
 	}
 	
+	/**
+	 * Cadena no vacia.
+	 *
+	 * @param checkCadena the check cadena
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public static boolean cadenaNoVacia(String checkCadena) throws Exception
 	{
 		boolean rta = true;
@@ -65,6 +98,14 @@ public class GenericAlgorithms {
 		return rta;
 	}
 	
+	/**
+	 * Revisar array list vacio.
+	 *
+	 * @param <V> the value type
+	 * @param lista the lista
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public static <V> boolean revisarArrayListVacio(ArrayList<V> lista) throws Exception
 	{
 		boolean rta = true;
@@ -73,6 +114,17 @@ public class GenericAlgorithms {
 		
 	}
 	
+	/**
+	 * Adds the hash hash.
+	 *
+	 * @param <K> the key type
+	 * @param <B> the generic type
+	 * @param <V> the value type
+	 * @param i the i
+	 * @param key the key
+	 * @param subkey the subkey
+	 * @param value the value
+	 */
 	public static <K,B,V> void addHashHash(HashMap<K,HashMap<B,V>> i, K key, B subkey, V value) {
 		HashMap<B,V> hashI = i.get(key);
 		if(hashI == null) 

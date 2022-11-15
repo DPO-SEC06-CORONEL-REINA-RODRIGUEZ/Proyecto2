@@ -1,3 +1,7 @@
+/**
+ *  Este es un controlador con responsabilidades al mantenimiento de la temporada
+ *  
+ */
 package model;
 
 import java.io.BufferedReader;
@@ -18,9 +22,7 @@ import java.util.Map.Entry;
 
 public class ControladorTemporada implements Serializable{
 	
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 2842626090867959496L;
 	private static ControladorTemporada uniqueObject;
 	private static final double porcentajeVenta =  0.97;
@@ -41,6 +43,21 @@ public class ControladorTemporada implements Serializable{
 	
 	
 	
+
+	/**
+	 * Planear temporada.
+	 * <b>pre: jugadores y fechas son archivos .csv</b>
+	 * <b>post: carga a los controladores los jugadores, crea una temporada por lo que establece
+	 * sus fechas, sus partidos reales, sus equipos reales y sus jugadores reales</b>
+	 * @param key the key
+	 * @param fechas the fechas
+	 * @param jugadores the jugadores
+	 * @throws Exception 
+	 * 1. si key es nulo
+	 * 2. si el key de temporada ya existe
+	 * 3. si la fecha del .csv no sigue el formato
+	 * 4. si los parámetros del .csv como cantidad de columnas no corresponden con el formato  
+	 */
 	public void planearTemporada(String key, File fechas, File jugadores) throws Exception
 	{	
 		if(key == null) {throw new Exception("Por favor ingrese un key no vacío");}
@@ -161,6 +178,7 @@ public class ControladorTemporada implements Serializable{
           
            Fecha fechaObjeto = new Fecha(partidos, fecha);
            lista_fechas.add(fechaObjeto);
+           
 		}
 		
 		lista_fechas.sort(new Comparator<Fecha>() 
@@ -180,6 +198,15 @@ public class ControladorTemporada implements Serializable{
 		
 	}
 	
+	/**
+	 * Sets the temporada actual.
+	 * <b>pre: keyTemporada es un key válido</b>
+	 * <b>post: establece una temporada actual dentro del controlador</b>
+	 * @param keyTemporada the new temporada actual
+	 * @throws Exception 
+	 * 1. keyTemporada es vacío
+	 * 2. ya hay una temporada en progreso
+	 */
 	public void setTemporadaActual(Object keyTemporada) throws Exception
 	{
 		if(keyTemporada == null) {throw new Exception("Seleccione un key no vacío por favor");}
@@ -194,6 +221,12 @@ public class ControladorTemporada implements Serializable{
 		}
 	}
 	
+	/**
+	 * Gets the string fecha actual.
+	 * <b>pre: existe una temporada actual no nula</b>
+	 * <b>post: devuelve la fecha actual de la temporada actual </b>
+	 * @return the string fecha actual
+	 */
 	public String getStringFechaActual()
 	{	
 	
@@ -211,6 +244,12 @@ public class ControladorTemporada implements Serializable{
 	
 	
 	
+	/**
+	 * Gets the key temporada actual.
+	 * <b>pre: hay una temporada actual no vacía</b>
+	 * <b>post: devuelve el key de la temporada actual </b>
+	 * @return the key temporada actual
+	 */
 	public String getKeyTemporadaActual()
 	{
 		String key;
@@ -219,6 +258,14 @@ public class ControladorTemporada implements Serializable{
 		return key;
 	}
 	
+	/**
+	 * Gets the temporada actual.
+	 * <b>pre: - </b>
+	 * <b>post: devuelve la temporada actual</b>
+	 * @return the temporada actual
+	 * @throws Exception 
+	 * 1. no hay una temporada actual no vacía
+	 */
 	public Temporada getTemporadaActual() throws Exception
 	{
 		if(temporadaActual == null) {throw new Exception("Por favor inicialice una temporada actual primero");}
@@ -226,12 +273,25 @@ public class ControladorTemporada implements Serializable{
 		return temporadaActual;
 	}
 
+	/**
+	 * Gets the temporada.
+	 * <b>pre: Existe una temporada actual no vacía</b>
+	 * <b>post: devuelve el obj. de temporada actual</b>
+	 * @param key the key
+	 * @return the temporada
+	 */
 	public Temporada getTemporada(String key) 
 	{
 		return temporadasPlaneadas.get(key);
 	}
 	
 	
+	/**
+	 * Gets the key temporadas planeadas.
+	 * <b>pre: Existe al menos una temporada planeada no vacía</b>
+	 * <b>post: Devuelve un String[] con las keys de las temporadasPlaneadas</b>
+	 * @return the key temporadas planeadas
+	 */
 	public String[] getKeyTemporadasPlaneadas()
 	{
 		ArrayList<String> result = new ArrayList<>();
@@ -251,17 +311,35 @@ public class ControladorTemporada implements Serializable{
 	        }
 		return str;
 	}
+	
+	/**
+	 * Gets the temporadas planeadas.
+	 * <b>pre: Existe alguna temporada planeada no vacía</b>
+	 * <b>post: Devuelve el hashMap de nombre temporada, Temporada</b>
+	 * @return the temporadas planeadas
+	 */
 	public HashMap<String,Temporada> getTemporadasPlaneadas()
 	{
 		return temporadasPlaneadas;
 	}
 
+	/**
+	 * Gets the single instance of ControladorTemporada.
+	 * Patrón singleton
+	 * @return single instance of ControladorTemporada
+	 */
 	public static ControladorTemporada getInstance()
 	{
 		if (uniqueObject == null) {uniqueObject = new ControladorTemporada();}
 		return uniqueObject;
 	}
 
+	/**
+	 * Gets the ID partidos reales.
+	 * <b>pre: Existe una temporada actual válida</b>
+	 * <b>post: devuelve los id de los partidos reales de la temporada actual</b>
+	 * @return the ID partidos reales
+	 */
 	public String[] getIDPartidosReales() {
 		String[] rta = new String[1];
 		if(temporadaActual == null) {rta[0] = "";}
@@ -269,6 +347,15 @@ public class ControladorTemporada implements Serializable{
 		return rta;
 	}
 
+	/**
+	 * Registrar partido.
+	 * <b>pre:  keyPartido es un key válido, resultadoPartido es de extensión .csv</b>
+	 * <b>post: revisa el formato del .csv, carga los puntos y resultado del partido en la aplicación</b>
+	 * @param keyPartido the key partido
+	 * @param resultadoPartido the resultado partido
+	 * @throws Exception 
+	 * 1. El .csv no sigue el formato esperado por la aplicación
+	 */
 	public void registrarPartido(String keyPartido, File resultadoPartido) throws Exception {
 		PartidoReal partido = temporadaActual.getPartido(keyPartido);
 		
@@ -284,7 +371,6 @@ public class ControladorTemporada implements Serializable{
 			
 			String nombre = partes[6];
 			String won = partes[2];
-			String position = partes[5];
 			
 			int minutos = Integer.parseInt(partes[7]);
 			save_ints[0] = minutos;
@@ -328,11 +414,16 @@ public class ControladorTemporada implements Serializable{
 		
 		
 		br.close();
-		
+		ctrlFantasia.agregarPuntos();
 		partido.resultadoCargado();
 		
 	}
 
+	/**
+	 * Reset temporada actual.
+	 * <b>pre: Asumimos que ya hay una temporada actual </b>
+	 * <b>post: elimina y termina la temporada actual y la guarda en temporadasFinalizadas</b>
+	 */
 	public void resetTemporadaActual() {
 		String key = temporadaActual.getKey();
 		temporadasFinalizadas.put(key, temporadaActual);
@@ -341,11 +432,23 @@ public class ControladorTemporada implements Serializable{
 		
 	}
 
+	/**
+	 * utilizado para la persistencia de los datos
+	 * 
+	 * @param data the new object
+	 */
 	public static void setObject(ControladorTemporada data) {
 		uniqueObject = data;
 		
 	}
 
+	/**
+	 * Obtener jugadores posicion.
+	 * <b>pre: existe una temporada actual que cargo hPosicion_jugadores</b>
+	 * <b>post: devuelve un arreglo de Strings con todos los jugadores de una posición posicion</b>
+	 * @param posicion the posicion
+	 * @return the string[]
+	 */
 	public String[] obtenerJugadoresPosicion(String posicion) {
 		ArrayList<String> nombJugadores = hPosicion_Jugadores.get(posicion);
 		
@@ -359,6 +462,13 @@ public class ControladorTemporada implements Serializable{
 	        }
 		return str;
 	}
+	
+	/**
+	 * Obtener jugadores.
+	 * <b>pre: jugadoresMap se encuentra inicializado </b>
+	 * <b>post: devuelve un arreglo de cadena de caracteres de todos los jugadores de la temporada </b>
+	 * @return the string[]
+	 */
 	public String[] obtenerJugadores()
 	{
 		ArrayList<String> result = new ArrayList<>();
@@ -380,6 +490,13 @@ public class ControladorTemporada implements Serializable{
 	}
 	
 
+	/**
+	 * Obtener jugador.
+	 * <b>pre: Hay una temporada actual cargada, jugadoresMap por tanto está cargado, keyJ es válido</b>
+	 * <b>post: devuelve el objeto JugadorReal  bajo el nombre keyJ</b>
+	 * @param keyJ the key J
+	 * @return the jugador real
+	 */
 	public JugadorReal obtenerJugador(String keyJ)
 	{
 		return jugadoresMap.get(keyJ);

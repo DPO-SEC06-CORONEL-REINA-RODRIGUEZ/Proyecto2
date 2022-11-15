@@ -1,3 +1,6 @@
+/*
+ * Panel inicial, panel de log-in
+ */
 package interfaz;
 
 import java.awt.*;

@@ -1,3 +1,6 @@
+/*
+ *  Controlador encargado de las responsabilidades de log-in y registro
+ */
 package model;
 
 import java.io.BufferedReader;
@@ -25,6 +28,10 @@ public class Registrador implements Serializable {
 	// <nombreUsuario, Usuario>
 	private  HashMap<String, Usuario> usersMap = new HashMap<String,Usuario>(); 
 	
+	/**
+	 * Instantiates a new registrador.
+	 * Patrón singleton
+	 */
 	private Registrador(){}
 	
 	public static Registrador getInstance()
@@ -35,6 +42,14 @@ public class Registrador implements Serializable {
 	
 	
 	
+	/**
+	 * Iniciar sesion usuario.
+	 *
+	 * @param nombre the nombre
+	 * @param contraseña the contraseña
+	 * @return the usuario
+	 * @throws Exception the exception
+	 */
 	public Usuario iniciarSesionUsuario(String nombre, String contraseña) throws Exception
 	{ 
 		Usuario iUsuario;
@@ -54,12 +69,28 @@ public class Registrador implements Serializable {
     	
     }
 	
+	/**
+	 * Contraseña correcta.
+	 *
+	 * @param nombre the nombre
+	 * @param contraseña the contraseña
+	 * @return true, if successful
+	 */
 	private boolean contraseñaCorrecta(String nombre, String contraseña) 
 	{
     	boolean c = false;
     	if (usersInfo.get(nombre).equals(contraseña)) {c=true;};
         return c;
     }
+	
+	/**
+	 * Registrar propietario.
+	 *
+	 * @param nombre the nombre
+	 * @param contraseña the contraseña
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public boolean registrarPropietario(String nombre,  String contraseña) throws Exception 
 	{
     	boolean out = false;
@@ -82,6 +113,16 @@ public class Registrador implements Serializable {
     	
     	return out;
     }
+	
+	/**
+	 * Registrar admin.
+	 *
+	 * @param nombre the nombre
+	 * @param contraseña the contraseña
+	 * @param key the key
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public boolean registrarAdmin(String nombre,  String contraseña, String key) throws Exception 
 	{
     	boolean out = false;
@@ -107,6 +148,13 @@ public class Registrador implements Serializable {
     
     	return out;
     }
+	
+	/**
+	 * Nombre ya existe.
+	 *
+	 * @param nombre the nombre
+	 * @return true, if successful
+	 */
 	private boolean nombreYaExiste(String nombre)
     {
     	boolean c =false;
@@ -114,7 +162,13 @@ public class Registrador implements Serializable {
     	return c;
     }
 	
-	 public  void cargarUsuarios(String path) throws IOException
+	 /**
+ 	 * Cargar usuarios.
+ 	 *
+ 	 * @param path the path
+ 	 * @throws IOException Signals that an I/O exception has occurred.
+ 	 */
+ 	public  void cargarUsuarios(String path) throws IOException
 	 {
 		
      	BufferedReader br = new BufferedReader(new FileReader(path));
@@ -151,6 +205,11 @@ public class Registrador implements Serializable {
      
      }
 
+	/**
+	 * Sets the object.
+	 *
+	 * @param dataRegistrador the new object
+	 */
 	public static void setObject(Registrador dataRegistrador) {
 		uniqueObject = dataRegistrador;
 		

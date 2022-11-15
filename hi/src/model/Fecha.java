@@ -15,19 +15,33 @@ public class Fecha implements Serializable{
 	private boolean yaInicio = false;
 	private ArrayList<PartidoReal>partidos = new ArrayList<>();
 	
+	/**
+	 * Instantiates a new fecha.
+	 *
+	 * @param partidos the partidos
+	 * @param fecha the fecha
+	 */
 	public Fecha(ArrayList<PartidoReal> partidos, Date fecha)
 	{
 		this.partidos = partidos;
 		this.fechaInicio = fecha;
-	}
-	
-	public Fecha() {
-	}
+	}public Fecha() {}
 
+	/**
+	 * Gets the fecha inicio.
+	 *
+	 * @return the fecha inicio
+	 */
 	public Date getFechaInicio()
 	{
 		return this.fechaInicio;
 	}
+	
+	/**
+	 * Gets the ID partidos.
+	 *
+	 * @return the ID partidos
+	 */
 	public String[] getIDPartidos()
 	{	
 		int s = partidos.size();
@@ -41,6 +55,13 @@ public class Fecha implements Serializable{
 	        }
 		return str;
 	}
+	
+	/**
+	 * Check partidos cargados.
+	 *
+	 * @return true, if successful
+	 * @throws Exception the exception
+	 */
 	public boolean checkPartidosCargados() throws Exception {
 		boolean rta = true;
 		for(PartidoReal pr : partidos) {
@@ -54,14 +75,30 @@ public class Fecha implements Serializable{
 	}
 	
 
+	/**
+	 * Checks if is ya inicio.
+	 *
+	 * @return true, if is ya inicio
+	 */
 	public boolean isYaInicio() {
 		return yaInicio;
 	}
 
+	/**
+	 * Sets the ya inicio.
+	 *
+	 * @param yaInicio the new ya inicio
+	 */
 	public void setYaInicio(boolean yaInicio) {
 		this.yaInicio = yaInicio;
 	}
 
+	/**
+	 * Compare to.
+	 *
+	 * @param o2 the o 2
+	 * @return the int
+	 */
 	public int compareTo(Fecha o2) {
 		if(this.getFechaInicio().before(o2.getFechaInicio())) {return -1;}
 		else if(this.getFechaInicio().after(o2.getFechaInicio())) {return 1;}

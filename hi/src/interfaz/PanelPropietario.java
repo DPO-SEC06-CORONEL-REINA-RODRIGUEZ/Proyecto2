@@ -1,3 +1,6 @@
+/*
+ * Panel para seleccionar el equipo a revisar o crear un nuevo equipo 
+ */
 package interfaz;
 
 import java.awt.*;

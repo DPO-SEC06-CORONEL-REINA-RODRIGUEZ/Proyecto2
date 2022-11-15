@@ -1,3 +1,6 @@
+/*
+ * Panel para funciones administrador
+ */
 package interfaz;
 
 import java.awt.*;
@@ -23,6 +26,7 @@ public class PanelAdministrador extends PlantillaPanel{
 	File fechas;
 	File keyTemporada;
 	JTextField txtKey;
+	
 	
 	
 	public PanelAdministrador(Usuario iUsuario)

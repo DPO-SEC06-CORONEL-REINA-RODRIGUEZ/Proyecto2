@@ -1,3 +1,6 @@
+/*
+ *  Esta clase representa el jugador real que participa en las ligas de fútbol real
+ */
 package model;
 
 import java.io.Serializable;
@@ -30,6 +33,14 @@ public class JugadorReal implements Serializable{
 	private int puntosFantasia;
 	
 	
+	/**
+	 * Instantiates a new jugador real.
+	 *
+	 * @param nombreJugador the nombre jugador
+	 * @param position the position
+	 * @param vCompra the v compra
+	 * @param vVenta the v venta
+	 */
 	public JugadorReal(String nombreJugador, Posicion position, Integer vCompra, Integer vVenta) {
 		name = nombreJugador;
 		posicion = position;
@@ -40,8 +51,19 @@ public class JugadorReal implements Serializable{
 	
 	
 	
+	/**
+	 * Gets the name.
+	 *
+	 * @return the name
+	 */
 	public String getName() {return this.name;}
 	
+	/**
+	 * Actualizar datos.
+	 *
+	 * @param results the results
+	 * @param save the save
+	 */
 	public void actualizarDatos(String results, Integer[] save) {
 		
 		if(results.equals("won")){nWins +=1;}
@@ -59,11 +81,21 @@ public class JugadorReal implements Serializable{
 		tarjetasRojas_Total += save[8];
 	}
 	
+	/**
+	 * Gets the precio compra.
+	 *
+	 * @return the precio compra
+	 */
 	public int getPrecioCompra()
 	{
 		return this.vCompra;
 	}
 	
+	/**
+	 * Gets the posicion.
+	 *
+	 * @return the posicion
+	 */
 	public Posicion getPosicion()
 	{
 		return this.posicion;
@@ -71,6 +103,11 @@ public class JugadorReal implements Serializable{
 
 
 
+	/**
+	 * Puntos acumulados.
+	 *
+	 * @param puntos the puntos
+	 */
 	public void puntosAcumulados(int puntos) {
 		this.puntosFantasia += puntos;
 	}

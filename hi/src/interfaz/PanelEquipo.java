@@ -1,3 +1,6 @@
+/*
+ * Panel equipo, en donde está el layout para cardlayout y visualizar otros paneles
+ */
 package interfaz;
 
 import java.awt.*;

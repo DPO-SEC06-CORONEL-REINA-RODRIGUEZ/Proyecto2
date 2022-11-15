@@ -1,3 +1,6 @@
+/*
+ *  Panel para registrar un nuevo propietario
+ */
 package interfaz;
 
 import javax.swing.*;

@@ -1,3 +1,6 @@
+/*
+ *  Ventana en donde se maneja casi la totalidad de las funcionalidades, variando de panel pero en la misma ventana
+ */
 package interfaz;
 
 //import java.awt.*;

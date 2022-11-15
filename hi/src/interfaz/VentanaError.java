@@ -1,3 +1,6 @@
+/*
+ *  Ventana predeterminada para mostrar las excepciones esperadas en el código
+ */
 package interfaz;
 
 import javax.swing.*;

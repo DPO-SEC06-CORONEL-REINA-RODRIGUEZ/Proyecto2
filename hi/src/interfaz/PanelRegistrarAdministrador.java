@@ -1,3 +1,6 @@
+/*
+ * Panel para registrar un nuevo administrador
+ */
 package interfaz;
 
 import javax.swing.*;
