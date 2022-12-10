@@ -32,6 +32,23 @@ public class EquipoFantasia implements Serializable{
 	private static final int puntosMas60min=2;
 	private static final int puntosHasta60min=1;
 	private static final int puntosCapitanVictoria = 5;
+		
+		
+	 private static final int puntosPorHacerMano = -1;
+	 private static final int puntosTiroLibre = 1;
+	 private static final int puntosGolTiroLibre = 2;
+	 private static final int puntosGolTresPartidosSeguidos = 10;
+	 private static final int puntosMas60minTresPartidosSeguidos = 5;
+	 private static final int puntosCampeon = 10;
+	 private static final int puntosSubcampeon = 7;
+	 private static final int puntosTercero = 5;
+	 private static final int puntosNoPerdioNunca = 10;
+	 private static final int puntosGanaronPartidoReal = 15;
+	 private static final int puntosJugadoresTitulares60min = 5;
+	 private static final int puntosMejorEquipoFantasiaPorFecha = 10;
+
+	                                 
+	
 	
 	private static final long serialVersionUID = -670034583416353181L;
 	

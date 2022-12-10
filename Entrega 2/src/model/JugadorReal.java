@@ -32,6 +32,10 @@ public class JugadorReal implements Serializable{
 	private int nLosses;
 	private int puntosFantasia;
 	
+	private int manos;
+	private int tiroslibresCobrados;
+	private int golesTiroslibres;
+	
 	
 	/**
 	 * Instantiates a new jugador real.
@@ -79,6 +83,9 @@ public class JugadorReal implements Serializable{
 		penaltisErrados_Total += save[6];
 		tarjetasAmarillas_Total += save[7];
 		tarjetasRojas_Total += save[8];
+		manos += save[9];
+		tiroslibresCobrados += save[10];
+		golesTiroslibres += save[11];
 	}
 	
 	/**
